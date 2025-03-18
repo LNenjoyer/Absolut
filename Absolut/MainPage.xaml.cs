@@ -20,7 +20,7 @@ namespace Absolut
             {
                 Color = Colors.Blue
             };
-            AbsoluteLayout.SetLayoutBounds(whiteBox, new Rect(0.5, 0.1, 150, 150));
+            AbsoluteLayout.SetLayoutBounds(whiteBox, new Rect(0.5, 0.5, 150, 150));
             AbsoluteLayout.SetLayoutFlags(whiteBox, AbsoluteLayoutFlags.PositionProportional);
             // Tworzymy przycisk 
             Button startButton = new Button
