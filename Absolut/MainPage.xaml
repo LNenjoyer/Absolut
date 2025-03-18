@@ -4,18 +4,18 @@
              x:Class="Absolut.MainPage">
     <AbsoluteLayout>
         <!-- Tło wypełniające całą stronę -->
-        <BoxView Color="LightGray" 
+        <BoxView Color="Yellow" 
                  AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
                  AbsoluteLayout.LayoutFlags="All" />
         <!-- Biały prostokąt, wyśrodkowany w poziomie, 15% od góry -->
-        <BoxView Color="Red" 
-                 AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, 100" 
+        <BoxView Color="White" 
+                 AbsoluteLayout.LayoutBounds="0.5, 0.5, 180, 180" 
                  AbsoluteLayout.LayoutFlags="PositionProportional" />
         <!-- Przycisk na dole ekranu -->
         <Button Text="Ok" 
                 BackgroundColor="Blue" 
                 TextColor="White" 
-                AbsoluteLayout.LayoutBounds="0, 1, 1, 50" 
+                AbsoluteLayout.LayoutBounds="0, 0.95, 1, 50" 
                 AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />
     </AbsoluteLayout>
 </ContentPage>
